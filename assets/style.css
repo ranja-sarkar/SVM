@@ -1,0 +1,22 @@
+
+Table {border: 1px solid grey;
+    border-collapse: collapse}
+
+Th {background-color: #FFD500;
+    color: #ED1C24;
+    text-align: center;
+    font-family: futura medium;
+    font-weight: normal;
+    border: 1px solid grey;
+    border-collapse: collapse;}
+
+Td {white-space: 'normal';
+    border: 1px solid grey;
+    border-collapse: collapse;}
+
+Tr {text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: futura medium}
+	
+	
