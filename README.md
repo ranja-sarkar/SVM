@@ -7,6 +7,8 @@
 Buy from Amazon: https://a.co/d/1zUEkNQ
 
 
-SVM is a go-to ML algorithm for classification problems - it finds the optimal hyperplane that divides the data into classes. 
+SVM is a go-to ML algorithm for classification problems - it finds the optimal hyperplane (decision boundary) that divides the data into classes. 
 Despite being used for only binary classification tasks primarily, it is a versatile method as it can be extended to multi-class classification. 
+It is highly effective for high-dimensional spaces and when the number of data points is smaller than the number of dimensions (e.g. text classification).
+Functions called kernels are used in SVMs that enable handling of non-linear relationships by transforming data into higher dimension. 
 
