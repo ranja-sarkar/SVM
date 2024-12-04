@@ -17,19 +17,17 @@ X, y = make_classification(n_samples = 10000, n_features = 2, n_informative = 2,
 #Dataset as pandas dataframe
 df = pd.DataFrame({'feature1': X[:, 0], 'feature2': X[:, 1], 'target': y})
 
-#Split dataset into train and test subsets in the ratio 4:1
+#Split dataset into train and test subsets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 42)
 #print(y_train.shape[0],y_test.shape[0])
 
-#Train SVM model with RBF
-one_class_svm = OneClassSVM(nu = 0.01, kernel = 'rbf', gamma = 'auto').fit(X_train)
+#Train SVM model with RBF mapping
+one_class_svm = OneClassSVM(nu = 0.01, kernel = 'rbf', gamma = 'auto').fit(X_train)        #gamma is a parameter for nonlinear kernels
 
-#gamma is a parameter for nonlinear kernels
 prediction = one_class_svm.predict(X_test)
 prediction = [1 if i ==-1 else 0 for i in prediction]
 print(classification_report(y_test, prediction))
 
-#Outliers
 df_test = pd.DataFrame(X_test, columns = ['feature1', 'feature2'])
 df_test['y_test'] = y_test
 df_test['svm_predictions'] = prediction
