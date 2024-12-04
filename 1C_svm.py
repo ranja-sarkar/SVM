@@ -21,8 +21,8 @@ df = pd.DataFrame({'feature1': X[:, 0], 'feature2': X[:, 1], 'target': y})
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 42)
 #print(y_train.shape[0],y_test.shape[0])
 
-#Train SVM model with RBF mapping
-one_class_svm = OneClassSVM(nu = 0.01, kernel = 'rbf', gamma = 'auto').fit(X_train)        #gamma is a parameter for nonlinear kernels
+#Train SVM model with RBF mapping, and 1% outlying data points in the observations (training data)
+one_class_svm = OneClassSVM(nu = 0.01, kernel = 'rbf', gamma = 'auto').fit(X_train)              #gamma is a parameter for nonlinear kernels
 
 prediction = one_class_svm.predict(X_test)
 prediction = [1 if i ==-1 else 0 for i in prediction]
