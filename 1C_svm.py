@@ -31,6 +31,8 @@ print(classification_report(y_test, prediction))
 df_test = pd.DataFrame(X_test, columns = ['feature1', 'feature2'])
 df_test['y_test'] = y_test
 df_test['svm_predictions'] = prediction
+
+
 fig, (ax1, ax2) = plt.subplots(1, 2, figsize = (16, 8))
 ax1.set_title('Original Data')
 ax1.scatter(df_test['feature1'], df_test['feature2'], c = df_test['y_test'])
