@@ -26,7 +26,7 @@ An excerpt from the book:
 
 The **one-class SVM approach is unsupervised learning** and effective in problems where very few deviations (outliers) from normal (inlying data points) are expected. 
 
-The following figures show classifications (find the **py file**) estimated with this approach (anomalies are marked in yellow) - 
+The following figures show classifications (1C_svm.py) estimated with this approach (anomalies are marked in yellow) - 
 
   **L** fig. -> results when the model is trained with **1% outliers** in the data 
   
