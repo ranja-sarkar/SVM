@@ -4,6 +4,7 @@ Although primarily used for only binary classification tasks, it can very well b
 It is highly effective for high-dimensional spaces and when the number of data points is smaller than the number of dimensions (e.g. text classification).
 Functions called kernels are used in SVMs that enable handling non-linear relationships in a dataset by transforming the dataset into higher dimension. 
 
+SVMs can be applied to a wide range of classification, regression, novelty detection tasks, and they can also be applied to unsupervised learning. Using the concepts of margin/regularization, duality, kernels, one can extend the method to meet the demands of wide variety of tasks. 
 The paper (SVMs.pdf) rightly says, 
 
 <img width="401" alt="11" src="https://github.com/user-attachments/assets/da28cd61-cccb-481e-9953-0ca737d858ab" />
@@ -23,7 +24,7 @@ An excerpt from the book:
 
 <img width="448" alt="10" src="https://github.com/user-attachments/assets/8599c5b8-e371-4888-86c2-3bbb3872988e">
 
-The one-class SVM approach is unsupervised learning and effective in problems where very few deviations (outliers) from normal (inlying data points) are expected. 
+The **one-class SVM approach is unsupervised learning** and effective in problems where very few deviations (outliers) from normal (inlying data points) are expected. 
 
 The following figures show classifications (find the **py file**) estimated with this approach (anomalies are marked in yellow) - left one results when the model is trained with **1% outliers** in the data and right one results when the model is trained with **2% outliers**. 
 
