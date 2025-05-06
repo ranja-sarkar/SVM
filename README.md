@@ -2,11 +2,11 @@
 **SVM (support vector machine)** finds the optimal hyperplane (decision boundary) to divide data into classes. Although primarily used for only binary classification tasks, it can very well be extended to multi-class classification. It is highly effective for high-dimensional spaces and when the number of data points is smaller than the number of dimensions (e.g. text classification).
 Functions called kernels are used in SVMs that enable handling non-linear relationships in a dataset by transforming the dataset into higher dimension. 
 
-SVMs can be applied to a wide range of classification, regression, novelty detection tasks, and they can also be applied to unsupervised learning. Using the concepts of margin/regularization, duality, kernels, one can extend the method to meet the demands of wide variety of tasks. 
-
+SVMs can be applied to a wide range of classification, regression, novelty detection tasks, and they can also be applied to unsupervised learning. 
 
 <img width="401" alt="11" src="https://github.com/user-attachments/assets/da28cd61-cccb-481e-9953-0ca737d858ab" />
 
+Using the concepts of margin/regularization, duality, kernels, one can extend the method to meet the demands of wide variety of tasks. 
 
 <img width="224" alt="22" src="https://github.com/user-attachments/assets/df8695ce-e047-479e-9dfe-687346fcab0e" />
 
@@ -24,7 +24,7 @@ An excerpt from the book:
 
 The **one-class SVM approach is unsupervised learning** and effective in problems where very few deviations (outliers) from normal (inlying data points) are expected. 
 
-The following figures show classifications (1C_svm.py) estimated with this approach (anomalies are marked in yellow) - 
+The following figures show classifications estimated with one-class SVM (anomalies are marked in yellow) - 
 
   **L** fig. -> results when the model is trained with **1% outliers** in the data 
   
