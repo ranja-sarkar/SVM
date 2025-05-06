@@ -1,11 +1,9 @@
 
-**SVM (support vector machine)** is still the go-to ML algorithm for classification problems - it finds the optimal hyperplane (decision boundary) that divides the data into classes. 
-Although primarily used for only binary classification tasks, it can very well be extended to multi-class classification. 
-It is highly effective for high-dimensional spaces and when the number of data points is smaller than the number of dimensions (e.g. text classification).
+**SVM (support vector machine)** finds the optimal hyperplane (decision boundary) to divide data into classes. Although primarily used for only binary classification tasks, it can very well be extended to multi-class classification. It is highly effective for high-dimensional spaces and when the number of data points is smaller than the number of dimensions (e.g. text classification).
 Functions called kernels are used in SVMs that enable handling non-linear relationships in a dataset by transforming the dataset into higher dimension. 
 
 SVMs can be applied to a wide range of classification, regression, novelty detection tasks, and they can also be applied to unsupervised learning. Using the concepts of margin/regularization, duality, kernels, one can extend the method to meet the demands of wide variety of tasks. 
-The paper (SVMs.pdf) rightly says, 
+
 
 <img width="401" alt="11" src="https://github.com/user-attachments/assets/da28cd61-cccb-481e-9953-0ca737d858ab" />
 
