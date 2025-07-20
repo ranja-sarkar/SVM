@@ -24,6 +24,8 @@ An excerpt from the book:
 
 The **one-class SVM approach is unsupervised learning** and effective in problems where very few deviations (outliers) from normal (inlying data points) are expected. 
 
+scikit-learn: https://scikit-learn.org/stable/modules/generated/sklearn.svm.OneClassSVM.html#sklearn.svm.OneClassSVM
+
 The following figures show classifications estimated with one-class SVM (anomalies are marked in yellow) - 
 
   **L** fig. -> results when the model is trained with **1% outliers** in the data 
