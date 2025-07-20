@@ -40,5 +40,8 @@ The following figures show classifications estimated with one-class SVM (anomali
 <img width="316" alt="10" src="https://github.com/user-attachments/assets/67396369-ae48-413c-9b37-d51ee4cd97d2">    
 <img width="320" alt="20" src="https://github.com/user-attachments/assets/459c243a-7cb8-4edd-9bb5-ed0b3afbb347">
 
+**Scaling up OnecClassSVM:** https://scikit-learn.org/stable/modules/outlier_detection.html#scaling-up-the-one-class-svm
+
+Using SGD: https://scikit-learn.org/stable/modules/sgd.html#online-one-class-svm
 
 
