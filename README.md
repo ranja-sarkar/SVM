@@ -26,6 +26,11 @@ The **one-class SVM approach is unsupervised learning** and effective in problem
 
 scikit-learn: https://scikit-learn.org/stable/modules/generated/sklearn.svm.OneClassSVM.html#sklearn.svm.OneClassSVM
 
+
+The scikit-learn OneClassSVM algorithm requires the choice of a kernel and a scalar parameter to define a frontier. The RBF kernel is usually chosen (default), although there exists no exact formula or algorithm to set its bandwidth parameter. The 'nu' parameter, also known as the margin, corresponds to the probability of finding a new, but regular, observation outside the frontier.
+
+If new observations lay within the frontier-delimited subspace, they are considered as coming from the same population as the initial observations. If they lay outside the frontier, we can say that they are abnormal with a given confidence in our assessment.
+
 The following figures show classifications estimated with one-class SVM (anomalies are marked in yellow) - 
 
   **L** fig. -> results when the model is trained with **1% outliers** in the data 
