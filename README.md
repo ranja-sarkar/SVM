@@ -31,7 +31,7 @@ The scikit-learn OneClassSVM algorithm requires the choice of a kernel and a sca
 
 If new observations lay within the frontier-delimited subspace, they are considered as coming from the same population as the initial observations. If they lay outside the frontier, we can say that they are abnormal with a given confidence in our assessment.
 
-The following figures show classifications estimated with one-class SVM (anomalies are marked in yellow) - 
+The following figures show classifications estimated with **OneClassSVM** (anomalies are marked in yellow) - 
 
   **L** fig. -> results when the model is trained with **1% outliers** in the data 
   
@@ -40,7 +40,7 @@ The following figures show classifications estimated with one-class SVM (anomali
 <img width="316" alt="10" src="https://github.com/user-attachments/assets/67396369-ae48-413c-9b37-d51ee4cd97d2">    
 <img width="320" alt="20" src="https://github.com/user-attachments/assets/459c243a-7cb8-4edd-9bb5-ed0b3afbb347">
 
-**Scaling up OnecClassSVM:** https://scikit-learn.org/stable/modules/outlier_detection.html#scaling-up-the-one-class-svm
+**Scaling up:** https://scikit-learn.org/stable/modules/outlier_detection.html#scaling-up-the-one-class-svm
 
 Using SGD: https://scikit-learn.org/stable/modules/sgd.html#online-one-class-svm
 
