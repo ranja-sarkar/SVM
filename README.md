@@ -33,9 +33,9 @@ If new observations lay within the frontier-delimited subspace, they are conside
 
 The following figures show outliers (marked yellow) estimated with **OneClassSVM**  - 
 
-  **L** -> results when the model is trained with data having **1% outliers**  
+  **L** -> results when the model has nu = 1%  
   
-  **R** -> results when the model is trained with data having **2% outliers**
+  **R** -> results when the model has nu = 2%
 
 <img width="316" alt="10" src="https://github.com/user-attachments/assets/67396369-ae48-413c-9b37-d51ee4cd97d2">    
 <img width="320" alt="20" src="https://github.com/user-attachments/assets/459c243a-7cb8-4edd-9bb5-ed0b3afbb347">
