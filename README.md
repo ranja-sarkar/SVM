@@ -2,7 +2,15 @@
 **SVM (support vector machine)** finds the optimal hyperplane (decision boundary) to divide data into classes. Although primarily used for only binary classification tasks, it can very well be extended to multi-class classification. It is highly effective for high-dimensional spaces and when the number of data points is smaller than the number of dimensions (e.g. text classification).
 Functions called kernels are used in SVMs that enable handling non-linear relationships in a dataset by transforming the dataset into higher dimension. 
 
-SVMs can be applied to a wide range of classification, regression, novelty detection tasks, and they can also be applied to unsupervised learning. 
+SVMs can be applied to a wide range of tasks - 
+
+1 Classification - https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html#sklearn.svm.SVC
+
+2 Regression - https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html#sklearn.svm.SVR
+
+3 Novelty detection 
+
+4 Unsupervised learning (demonstrated below). 
 
 <img width="401" alt="11" src="https://github.com/user-attachments/assets/da28cd61-cccb-481e-9953-0ca737d858ab" />
 
